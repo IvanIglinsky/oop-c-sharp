@@ -1,0 +1,16 @@
+E:\GitLabOOP\ConsoleLab 1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+E:\GitLabOOP\ConsoleLab 1\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+E:\GitLabOOP\ConsoleLab 1\WpfApp1\obj\Debug\MainWindow.g.cs
+E:\GitLabOOP\ConsoleLab 1\WpfApp1\obj\Debug\App.g.cs
+E:\GitLabOOP\ConsoleLab 1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+E:\GitLabOOP\ConsoleLab 1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+E:\GitLabOOP\ConsoleLab 1\WpfApp1\bin\Debug\WpfApp1.exe.config
+E:\GitLabOOP\ConsoleLab 1\WpfApp1\bin\Debug\WpfApp1.exe
+E:\GitLabOOP\ConsoleLab 1\WpfApp1\bin\Debug\WpfApp1.pdb
+E:\GitLabOOP\ConsoleLab 1\WpfApp1\obj\Debug\MainWindow.baml
+E:\GitLabOOP\ConsoleLab 1\WpfApp1\obj\Debug\WpfApp1.g.resources
+E:\GitLabOOP\ConsoleLab 1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+E:\GitLabOOP\ConsoleLab 1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+E:\GitLabOOP\ConsoleLab 1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+E:\GitLabOOP\ConsoleLab 1\WpfApp1\obj\Debug\WpfApp1.exe
+E:\GitLabOOP\ConsoleLab 1\WpfApp1\obj\Debug\WpfApp1.pdb

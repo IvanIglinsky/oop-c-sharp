@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e9c6304b-a1b2-4c5b-aac5-ce6b92edcf2b": {
+      "ProjectGuid": "e9c6304b-a1b2-4c5b-aac5-ce6b92edcf2b",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 0
+    },
+    "548ba91b-3dcd-42f7-be78-307685cc40e0": {
+      "ProjectGuid": "548ba91b-3dcd-42f7-be78-307685cc40e0",
+      "DisplayName": "WinFormsApp1",
+      "ColorIndex": 1
+    },
+    "41399c1c-4876-4ad3-ab20-168d4cc660c2": {
+      "ProjectGuid": "41399c1c-4876-4ad3-ab20-168d4cc660c2",
+      "DisplayName": "WpfApp1",
+      "ColorIndex": 2
+    },
+    "87e56bf8-221a-4397-b45a-6d66c703d9e7": {
+      "ProjectGuid": "87e56bf8-221a-4397-b45a-6d66c703d9e7",
+      "DisplayName": "ConsoleApp2",
+      "ColorIndex": 3
+    },
+    "778e17db-d379-4898-8103-a374de7160c3": {
+      "ProjectGuid": "778e17db-d379-4898-8103-a374de7160c3",
+      "DisplayName": "WindowsFormsApp2",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "38530808-126b-4cb9-abf6-f1325e9f12a2": {
+      "ProjectGuid": "38530808-126b-4cb9-abf6-f1325e9f12a2",
+      "DisplayName": "WpfApp2",
+      "ColorIndex": 5
+    },
+    "7fb24f0b-0ef2-4d72-808a-ba1ec8b12971": {
+      "ProjectGuid": "7fb24f0b-0ef2-4d72-808a-ba1ec8b12971",
+      "DisplayName": "ConsoleApp3",
+      "ColorIndex": 6
+    },
+    "81c4112b-ccfc-4dcc-8e20-c70dced0458a": {
+      "ProjectGuid": "81c4112b-ccfc-4dcc-8e20-c70dced0458a",
+      "DisplayName": "ConsoleApp4",
+      "ColorIndex": 7
+    },
+    "95e2e620-f42f-4a30-9729-7e70b42ca839": {
+      "ProjectGuid": "95e2e620-f42f-4a30-9729-7e70b42ca839",
+      "DisplayName": "ConsoleApp5",
+      "ColorIndex": 8
+    }
+  },
+  "NextColorIndex": 9
+}

@@ -1,0 +1,11 @@
+E:\GitLabOOP\oop-lab2\WinFormsApp1\bin\Debug\WinFormsApp1.exe.config
+E:\GitLabOOP\oop-lab2\WinFormsApp1\bin\Debug\WinFormsApp1.exe
+E:\GitLabOOP\oop-lab2\WinFormsApp1\bin\Debug\WinFormsApp1.pdb
+E:\GitLabOOP\oop-lab2\WinFormsApp1\obj\Debug\WinFormsApp1.csproj.AssemblyReference.cache
+E:\GitLabOOP\oop-lab2\WinFormsApp1\obj\Debug\WinFormsApp1.csproj.SuggestedBindingRedirects.cache
+E:\GitLabOOP\oop-lab2\WinFormsApp1\obj\Debug\WinFormsApp1.Properties.Resources.resources
+E:\GitLabOOP\oop-lab2\WinFormsApp1\obj\Debug\WinFormsApp1.csproj.GenerateResource.cache
+E:\GitLabOOP\oop-lab2\WinFormsApp1\obj\Debug\WinFormsApp1.csproj.CoreCompileInputs.cache
+E:\GitLabOOP\oop-lab2\WinFormsApp1\obj\Debug\WinFormsApp1.exe
+E:\GitLabOOP\oop-lab2\WinFormsApp1\obj\Debug\WinFormsApp1.pdb
+E:\GitLabOOP\oop-lab2\WinFormsApp1\obj\Debug\WinFormsApp1.Form1.resources

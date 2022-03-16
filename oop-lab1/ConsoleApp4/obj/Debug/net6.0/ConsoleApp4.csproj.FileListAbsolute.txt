@@ -1,0 +1,15 @@
+E:\GitLabOOP\ConsoleLab 1\ConsoleApp4\bin\Debug\net6.0\ConsoleApp4.exe
+E:\GitLabOOP\ConsoleLab 1\ConsoleApp4\bin\Debug\net6.0\ConsoleApp4.deps.json
+E:\GitLabOOP\ConsoleLab 1\ConsoleApp4\bin\Debug\net6.0\ConsoleApp4.runtimeconfig.json
+E:\GitLabOOP\ConsoleLab 1\ConsoleApp4\bin\Debug\net6.0\ConsoleApp4.dll
+E:\GitLabOOP\ConsoleLab 1\ConsoleApp4\bin\Debug\net6.0\ref\ConsoleApp4.dll
+E:\GitLabOOP\ConsoleLab 1\ConsoleApp4\bin\Debug\net6.0\ConsoleApp4.pdb
+E:\GitLabOOP\ConsoleLab 1\ConsoleApp4\obj\Debug\net6.0\ConsoleApp4.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitLabOOP\ConsoleLab 1\ConsoleApp4\obj\Debug\net6.0\ConsoleApp4.AssemblyInfoInputs.cache
+E:\GitLabOOP\ConsoleLab 1\ConsoleApp4\obj\Debug\net6.0\ConsoleApp4.AssemblyInfo.cs
+E:\GitLabOOP\ConsoleLab 1\ConsoleApp4\obj\Debug\net6.0\ConsoleApp4.csproj.CoreCompileInputs.cache
+E:\GitLabOOP\ConsoleLab 1\ConsoleApp4\obj\Debug\net6.0\ConsoleApp4.dll
+E:\GitLabOOP\ConsoleLab 1\ConsoleApp4\obj\Debug\net6.0\ref\ConsoleApp4.dll
+E:\GitLabOOP\ConsoleLab 1\ConsoleApp4\obj\Debug\net6.0\ConsoleApp4.pdb
+E:\GitLabOOP\ConsoleLab 1\ConsoleApp4\obj\Debug\net6.0\ConsoleApp4.genruntimeconfig.cache
+E:\GitLabOOP\ConsoleLab 1\ConsoleApp4\obj\Debug\net6.0\ConsoleApp4.csproj.AssemblyReference.cache
