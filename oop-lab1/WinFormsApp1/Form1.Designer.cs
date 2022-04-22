@@ -52,7 +52,7 @@ namespace WinFormsApp1
             this.label1.Size = new System.Drawing.Size(51, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "x = ";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+         
             // 
             // label2
             // 
@@ -64,7 +64,7 @@ namespace WinFormsApp1
             this.label2.Size = new System.Drawing.Size(52, 27);
             this.label2.TabIndex = 1;
             this.label2.Text = "y = ";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+           
             // 
             // label3
             // 
@@ -87,6 +87,7 @@ namespace WinFormsApp1
             this.textBoxX.Name = "textBoxX";
             this.textBoxX.Size = new System.Drawing.Size(292, 34);
             this.textBoxX.TabIndex = 3;
+       
             // 
             // textBoxY
             // 
@@ -156,7 +157,7 @@ namespace WinFormsApp1
             this.label5.Size = new System.Drawing.Size(344, 27);
             this.label5.TabIndex = 9;
             this.label5.Text = "Іглінський І.Ю., гр. ІПЗ-21-4(2)";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            
             // 
             // Form1
             // 

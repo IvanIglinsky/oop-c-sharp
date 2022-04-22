@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="400" Width="286">
+    <Grid HorizontalAlignment="Left" Width="880" Height="434" Margin="10,0,0,0" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="111*"/>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="49*"/>
+            <RowDefinition Height="214*"/>
+        </Grid.RowDefinitions>
+        <CheckBox x:Name="CheckBox1" Content="Кількість парних" Margin="10,0,724,0" Height="23" VerticalAlignment="Center" Grid.Row="2" Checked="CheckBox1_Checke1dChanged" Unchecked="CheckBox1_UnChecke1dChanged" ClickMode="Press" FontSize="14"/>
+        <Label Content="Уведіть послідовність чисел" Margin="10,0,0,0" Grid.Row="1" Height="31" VerticalAlignment="Center" HorizontalAlignment="Left" Width="210" FontSize="14"/>
+        <TextBox x:Name="TextBox1" TextWrapping="Wrap"  Margin="10,0,660,0" Grid.Row="1" Height="29" VerticalAlignment="Bottom" FontSize="14"/>
+        <TextBox x:Name="TextBox2" TextWrapping="Wrap"  RenderTransformOrigin="0.462,0.466" Margin="10,55,0,0" Grid.Row="2" HorizontalAlignment="Left" Width="128" Height="26" VerticalAlignment="Top" FontSize="14" Grid.RowSpan="2"/>
+        <Label Content="Лабораторна робота №2.&#xD;&#xA;Виконав: Іглінський І.Ю., &#xD;&#xA;група ІПЗ-21-4(2)" Margin="-2,39,0,83" Grid.Row="4" HorizontalAlignment="Left" Width="244" Cursor="SizeWE" FontSize="16"/>
 
     </Grid>
 </Window>

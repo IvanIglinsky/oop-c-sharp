@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitLabOOP\\ConsoleLab 1\\ConsoleApp4\\ConsoleApp4.csproj",
+      "projectUniqueName": "E:\\GitLabOOP\\oop-lab1\\ConsoleApp4\\ConsoleApp4.csproj",
       "projectName": "ConsoleApp4",
-      "projectPath": "E:\\GitLabOOP\\ConsoleLab 1\\ConsoleApp4\\ConsoleApp4.csproj",
+      "projectPath": "E:\\GitLabOOP\\oop-lab1\\ConsoleApp4\\ConsoleApp4.csproj",
       "packagesPath": "C:\\Users\\ivanm\\.nuget\\packages\\",
-      "outputPath": "E:\\GitLabOOP\\ConsoleLab 1\\ConsoleApp4\\obj\\",
+      "outputPath": "E:\\GitLabOOP\\oop-lab1\\ConsoleApp4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ivanm\\AppData\\Roaming\\NuGet\\NuGet.Config",

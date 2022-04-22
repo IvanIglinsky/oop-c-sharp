@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitLabOOP\\ConsoleLab 1\\ConsoleApp3\\ConsoleApp3.csproj": {}
+    "E:\\GitLabOOP\\oop-lab1\\ConsoleApp3\\ConsoleApp3.csproj": {}
   },
   "projects": {
-    "E:\\GitLabOOP\\ConsoleLab 1\\ConsoleApp3\\ConsoleApp3.csproj": {
+    "E:\\GitLabOOP\\oop-lab1\\ConsoleApp3\\ConsoleApp3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitLabOOP\\ConsoleLab 1\\ConsoleApp3\\ConsoleApp3.csproj",
+        "projectUniqueName": "E:\\GitLabOOP\\oop-lab1\\ConsoleApp3\\ConsoleApp3.csproj",
         "projectName": "ConsoleApp3",
-        "projectPath": "E:\\GitLabOOP\\ConsoleLab 1\\ConsoleApp3\\ConsoleApp3.csproj",
+        "projectPath": "E:\\GitLabOOP\\oop-lab1\\ConsoleApp3\\ConsoleApp3.csproj",
         "packagesPath": "C:\\Users\\ivanm\\.nuget\\packages\\",
-        "outputPath": "E:\\GitLabOOP\\ConsoleLab 1\\ConsoleApp3\\obj\\",
+        "outputPath": "E:\\GitLabOOP\\oop-lab1\\ConsoleApp3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ivanm\\AppData\\Roaming\\NuGet\\NuGet.Config",

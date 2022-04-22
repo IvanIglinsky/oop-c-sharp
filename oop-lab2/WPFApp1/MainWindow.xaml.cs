@@ -1,28 +1,47 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace WPFApp1
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void CheckBox1_Checke1dChanged(object sender, RoutedEventArgs e)
+        {
+            int par = 0, count = 0;
+            var a = new List<int>();
+            foreach (var s in TextBox1.Text.Split(',', '.'))
+            {
+                a.Add(Convert.ToInt32(s));
+                count++;
+            }
+            for (int i = 0; i < count; i++)
+            {
+                if (a[i] % 2 == 0)
+                    par++;
+                TextBox2.Text = $"{par}";
+            }
+        }
+        private void CheckBox1_UnChecke1dChanged(object sender, RoutedEventArgs e)
+        {
+            int nepar = 0, count = 0;
+            var a = new List<int>();
+            foreach (var s in TextBox1.Text.Split(',', '.'))
+            {
+                a.Add(Convert.ToInt32(s));
+                count++;
+            }
+            for (int i = 0; i < count; i++)
+            {
+                if (a[i] % 2 != 0)
+                    nepar++;
+            }
+            TextBox2.Text = $"{nepar}";
         }
     }
 }

@@ -1,26 +1,21 @@
 {
   "Version": 1,
   "ProjectMap": {
-    "57f7c95e-b516-4c5b-9b6c-adbd8240aab4": {
-      "ProjectGuid": "57f7c95e-b516-4c5b-9b6c-adbd8240aab4",
-      "DisplayName": "WinFormsApp1",
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "89d67d57-1fc4-4614-a923-e41eee5aee38": {
+      "ProjectGuid": "89d67d57-1fc4-4614-a923-e41eee5aee38",
+      "DisplayName": "WinFormsApp2",
       "ColorIndex": 0
     },
     "9601b363-791c-4025-a69a-9c7db0cb8aa7": {
       "ProjectGuid": "9601b363-791c-4025-a69a-9c7db0cb8aa7",
       "DisplayName": "WPFApp2",
       "ColorIndex": 1
-    },
-    "89d67d57-1fc4-4614-a923-e41eee5aee38": {
-      "ProjectGuid": "89d67d57-1fc4-4614-a923-e41eee5aee38",
-      "DisplayName": "WinFormsApp2",
-      "ColorIndex": 2
-    },
-    "74ffcbc6-9642-4897-a207-2a30febcf62e": {
-      "ProjectGuid": "74ffcbc6-9642-4897-a207-2a30febcf62e",
-      "DisplayName": "WPFApp1",
-      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 2
 }

@@ -1,63 +1,44 @@
-п»їusing System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
 namespace WinFormsApp1
 {
-    public partial class Form1 : Form
+     public partial class Form1 : Form
     {
-        public object MessageBoxButton { get; private set; }
-
         public Form1()
         {
             InitializeComponent();
         }
+       
 
-        private void label1_Click(object sender, EventArgs e)
+
+        private void button1_Click_1(object sender, EventArgs e)
         {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            double a, b, h, y;
+            double a, b, h, y,x;
             bool ok;
-            int n = 1;
+          
             ok = double.TryParse(TextBoxA.Text, out a);
             if (!ok)
             {
-                MessageBox.Show("РџРѕРјРёР»РєР° РІРІРµРґРµРЅРЅСЏ Р·РЅР°С‡РµРЅРЅСЏ a!", "РџРѕРјРёР»РєР°", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Помилка введення значення a!", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             ok = double.TryParse(TextBoxB.Text, out b);
             if (!ok)
             {
-                MessageBox.Show("РџРѕРјРёР»РєР° РІРІРµРґРµРЅРЅСЏ Р·РЅР°С‡РµРЅРЅСЏ b!", "РџРѕРјРёР»РєР°", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Помилка введення значення b!", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             ok = double.TryParse(TextBoxH.Text, out h);
             if (!ok)
             {
-                MessageBox.Show("РџРѕРјРёР»РєР° РІРІРµРґРµРЅРЅСЏ Р·РЅР°С‡РµРЅРЅСЏ h!", "РџРѕРјРёР»РєР°", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Помилка введення значення h!", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-        
-
-            for (double x = a; x < b; x += h)
+            TextBoxR.Text ="X      Y" + Environment.NewLine;
+            for (; a < b; a += h)
             {
-                TextBoxR.Text = null;
-                
-                TextBoxR.Text = "Selection starts at character #" + TextBoxR.SelectionStart + Environment.NewLine;
-                y = (x + Math.Cos(2 * x)) / 3 * x;
-                TextBoxR.Text = y.ToString("F2");
-                y = 0;
-                n++;
+                x = a;
+                y = (x + Math.Cos(2*x)) / 3 * x;
+                TextBoxR.Text+= $"{x:F2}   {y:F2}" + Environment.NewLine;
+                TextBoxR.AcceptsReturn=true;
             }
 
         }
@@ -70,7 +51,6 @@ namespace WinFormsApp1
 
         }
 
-
+     
     }
-
 }

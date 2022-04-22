@@ -17,15 +17,6 @@ namespace WinFormsApp1
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -62,9 +53,6 @@ namespace WinFormsApp1
 
         }
 
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
+     
     }
 }

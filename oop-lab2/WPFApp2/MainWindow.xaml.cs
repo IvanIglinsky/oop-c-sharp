@@ -27,9 +27,9 @@ namespace WPFApp2
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            double a, b, h,y;
+            double a, b, h,y,x;
             bool ok;
-            int n=1;
+        
             ok = double.TryParse(TextBoxA.Text, out a);
             if (!ok)
             {
@@ -48,19 +48,17 @@ namespace WPFApp2
                 MessageBox.Show("Помилка введення значення h!", "Помилка", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
-            TextBoxR.Text = "{X    Y}";
-            
-                for (double x = a; x < b; x += h)
-                {
-                    TextBoxR.Text = null;
-                    TextBoxR.Text = x.ToString("F1");
-                    TextBoxR.Text = "Selection starts at character #" + TextBoxR.SelectionStart + Environment.NewLine;
-                    y = (x + Math.Cos(2 * x)) / 3 * x;
-                    TextBoxR.Text = y.ToString("F2");
-                    y = 0;
-                    n++;
-                }
-            
+            TextBoxR.Text = "X      Y" + Environment.NewLine;
+            for (; a < b; a += h)
+            {
+                x = a;
+                y = (x + Math.Cos(2 * x)) / 3 * x;
+                TextBoxR.Text += $"{x:F2}   {y:F2}" + Environment.NewLine;
+                TextBoxR.AcceptsReturn = true;
+            }
+
+
+
         }
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
