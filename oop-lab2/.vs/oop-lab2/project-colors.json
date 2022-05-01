@@ -15,7 +15,12 @@
       "ProjectGuid": "9601b363-791c-4025-a69a-9c7db0cb8aa7",
       "DisplayName": "WPFApp2",
       "ColorIndex": 1
+    },
+    "be741abd-3379-4997-8722-845390fd9a4f": {
+      "ProjectGuid": "be741abd-3379-4997-8722-845390fd9a4f",
+      "DisplayName": "WinFormsApp1",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
