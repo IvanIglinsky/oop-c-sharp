@@ -179,6 +179,7 @@
             0,
             0,
             0});
+            this.numericUpDown_N.ValueChanged += new System.EventHandler(this.numericUpDown_N_ValueChanged);
             // 
             // label5
             // 
@@ -203,6 +204,7 @@
             0,
             0,
             0});
+            this.numericUpDown_M.ValueChanged += new System.EventHandler(this.numericUpDown_M_ValueChanged);
             // 
             // dataGridViewSum
             // 

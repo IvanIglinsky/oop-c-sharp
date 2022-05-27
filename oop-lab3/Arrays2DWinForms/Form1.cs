@@ -32,6 +32,17 @@ namespace Arrays2DWinForms
         }
         int n, m;
         double summ = 0, max = -999999;
+
+        private void numericUpDown_M_ValueChanged(object sender, EventArgs e)
+        {
+            button1_gen_Click(sender, e);
+        }
+
+        private void numericUpDown_N_ValueChanged(object sender, EventArgs e)
+        {
+            button1_gen_Click(sender, e);
+        }
+
         private void button1_gen_Click(object sender, EventArgs e)
         {
 
