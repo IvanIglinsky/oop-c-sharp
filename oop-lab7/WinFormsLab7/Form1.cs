@@ -1,6 +1,4 @@
 using ClassLibraryWinFormLab7;
-
-
 namespace WinFormsLab7
 {
     public partial class Form1 : Form
