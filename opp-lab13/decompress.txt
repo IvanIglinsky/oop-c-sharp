@@ -1,0 +1,124 @@
+#include "pch.h"
+#include <iostream>
+#include <Windows.h>
+
+void menu(int task);
+
+struct Time {
+	unsigned short tHour : 5; //0...24
+	unsigned short tMinute : 6; //0...60
+	unsigned short tSecond : 6; //0...60
+};
+
+struct Date {
+	Time time;
+	unsigned short dDay : 5; //0...31
+	unsigned short dMonth : 4; //0...12
+	unsigned int dYear : 5; //0...30
+};
+
+struct nTime {
+	unsigned short tHour;
+	unsigned short tMinute;
+	unsigned short tSecond;
+};
+
+struct nDate {
+	nTime ntime;
+	unsigned short dDay;
+	unsigned short dMonth;
+	unsigned int dYear;
+};
+
+union num {
+	int number;
+	struct {
+		unsigned b0 : 1;
+		unsigned b1 : 1;
+		unsigned b2 : 1;
+		unsigned b3 : 1;
+		unsigned b4 : 1;
+		unsigned b5 : 1;
+		unsigned b6 : 1;
+		unsigned b7 : 1;
+		unsigned b8 : 1;
+		unsigned b9 : 1;
+		unsigned b10 : 1;
+		unsigned b11 : 1;
+		unsigned b12 : 1;
+		unsigned b13 : 1;
+		unsigned b14 : 1;
+		unsigned b15 : 1;
+	};
+};
+
+int main()
+{
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+	int task;
+	while (1) {
+		puts("Выбор задания:");
+		puts("(1) Вывод текущего времени->");
+		puts("(2) Вывод знака числа->");
+		puts("(3) Выполнение операций->");
+		puts("(4) Структура типа float->");
+		puts("Выберите номер задания:"); scanf_s("%d", &task);
+		menu(task);
+	}
+}
+
+void menu(int task) {
+	switch (task) {
+	case 1: {
+		Date now; 
+		nDate nw;
+		now.time.tHour = 11;
+		now.time.tMinute = 15;
+		now.time.tSecond = 45;
+		now.dDay = 7;
+		now.dMonth = 2;
+		now.dYear = 19;
+		printf("Текущее время %hu : %hu : %hu\n", now.time.tHour, now.time.tMinute, now.time.tSecond);
+		printf("Текущая дата %hu . %hu . %d\n", now.dDay, now.dMonth, now.dYear);
+		int x = sizeof(Date);
+		int y = sizeof(nDate);
+		printf("Размер структуры с границами - %d;\nРазмер структуры без границ - %d;\n", x, y); break;
+	}
+	case 2: {
+		num var;
+		puts("Введите число: ");
+		scanf_s("%d", &var.number);
+		var.b15 == 0 ? puts("Знак числа +") : puts("Знак числа -");
+		printf("Значение заданого числа: ");
+		printf("%d\n", var.number); break;
+	}
+	case 3: {
+		signed char a = 5;
+		signed char b = 127;
+		signed char c = 2;
+		signed char d = -3;
+		signed char e = -120;
+		signed char f = -34;
+		unsigned char g = -5;
+		signed char k = 56;
+		signed char l = 38;
+		signed char res1 = 0, res2 = 0, res3 = 0, res4 = 0, res5 = 0, res6 = 0;
+		res1 = a + b;
+		printf("(1) res = %d\n", res1);
+		res2 = c + d;
+		printf("(2) res = %d\n", res2);
+		res3 = e + f;
+		printf("(3) res = %d\n", res3);
+		res4 = g;
+		printf("(4) res = %d\n", g);
+		res5 = k & l;
+		printf("(5) res = %d\n", res5);
+		res6 = k | l;
+		printf("(6) res = %d\n", res6);
+	}
+	case 4: {
+
+	}
+	}
+}
